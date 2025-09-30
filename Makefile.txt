@@ -1,0 +1,15 @@
+# Makefile para PortSniff
+CXX = g++
+CXXFLAGS = -std=c++17 -g -Wall
+LDFLAGS = -lpcap -pthread
+SRCDIR = src
+SOURCES = $(SRCDIR)/main.cpp $(SRCDIR)/Escaneo.cpp $(SRCDIR)/Sniffer.cpp $(SRCDIR)/JSONGen.cpp
+TARGET = portsniff
+
+$(TARGET): $(SOURCES)
+	$(CXX) $(CXXFLAGS) $(SOURCES) -o $(TARGET) $(LDFLAGS)
+
+clean:
+	rm -f $(TARGET) resultado.json
+
+.PHONY: clean
