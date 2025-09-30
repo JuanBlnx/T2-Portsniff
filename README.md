@@ -1,30 +1,40 @@
-# Proyecto: Escáner híbrido de puertos y sniffing en C++
-
-## 1. Descripción general
-Herramienta desarrollada en **C++17** para **Linux**, cuyo objetivo es realizar un escaneo real de puertos TCP y UDP sobre un host objetivo y capturar la primera trama de respuesta mediante técnicas de sniffing.  
-El programa genera un **informe JSON** con la información del servicio detectado, el estado del puerto y los primeros bytes de la cabecera IP/TCP o IP/UDP.
-
-El desarrollo sigue un enfoque modular, concurrente y con captura en tiempo real utilizando **libpcap** y **sockets no bloqueantes**.
+# 📟 Proyecto: Escáner híbrido de puertos y sniffing en C++ 📟
 
 ---
 
-## 2. Integrantes del equipo
+## 🧠 1. Descripción general
 
-| Integrante | Módulo asignado | Descripción |
-|-------------|-----------------|-------------|
-| **Juan Ángel Rodríguez Bulnes** | Escaneo | Implementación del escaneo TCP/UDP con sockets no bloqueantes, gestión de timeouts y clasificación de estados (abierto, cerrado, filtrado). |
-| **Ángel David Morales Palomo** | Sniffer | Captura de paquetes con libpcap, configuración de filtros BPF dinámicos por IP y puerto, y extracción de bytes de cabecera. |
-| **Sofía Flores Martínez Cisneros** | JSONGen | Generación manual del archivo JSON usando streams de C++, garantizando compatibilidad, portabilidad y control total sobre el formato. |
+Herramienta desarrollada en **C++17** para **Linux**, cuyo objetivo es realizar un **escaneo real de puertos TCP y UDP** sobre un host objetivo y capturar la primera trama de respuesta mediante técnicas de **sniffing**.  
+
+El programa genera un **informe JSON** con la información del servicio detectado, el estado del puerto y los primeros bytes de la cabecera **IP/TCP o IP/UDP**.
+
+El desarrollo sigue un enfoque **modular, concurrente y con captura en tiempo real**, utilizando **libpcap** y **sockets no bloqueantes** para optimizar el rendimiento y la precisión del análisis.
 
 ---
 
-## 3. Requisitos del sistema
+## 👥 2. Integrantes del equipo
 
-- **Sistema operativo:** Lubuntu (o cualquier distribución basada en Ubuntu/Debian)  
-- **Compilador:** g++ compatible con **C++17 o superior**  
-- **Dependencias:**  
-  - `libpcap` (para captura de paquetes)  
-  - `pthread` (para hilos)
+| 👨‍💻 **Integrante** | 🧩 **Módulo asignado** | 📝 **Descripción** |
+|----------------------|------------------------|--------------------|
+| **Juan Angel Rodríguez Bulnes** | 🔎 *Escaneo* | Implementación del escaneo **TCP/UDP** con **sockets no bloqueantes**, gestión de **timeouts** y clasificación de estados (*abierto*, *cerrado*, *filtrado*). |
+| **Sofía Flores Martínez Cisneros** | 📡 *Sniffer* | Captura de paquetes con **libpcap**, configuración de filtros **BPF dinámicos** por IP y puerto, y extracción de **bytes de cabecera**. |
+| **Angel David Morales Palomo** | 🧾 *JSONGen* | Generación manual del archivo **JSON** usando **streams de C++**, garantizando compatibilidad, portabilidad y control total sobre el formato. |
+
+---
+
+## 💻 3. Requisitos del sistema
+
+- 🧱 **Sistema operativo:** Lubuntu (o cualquier distribución basada en Ubuntu/Debian)  
+- 🧠 **Compilador:** `g++` compatible con **C++17 o superior**  
+- 📦 **Dependencias:**  
+  - `libpcap` → Captura de paquetes en red  
+  - `pthread` → Manejo de hilos para concurrencia  
+
+---
+
+✨ *Este proyecto fue diseñado para integrar técnicas de redes, concurrencia y análisis de tráfico en un entorno práctico y eficiente.*  
+
+---
 
 # ⚙️ Instalación de dependencias
 
