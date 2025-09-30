@@ -1,0 +1,178 @@
+[
+  {
+    "ip": "127.0.0.1",
+    "port": 80,
+    "protocol": "TCP",
+    "service": "http",
+    "state": "cerrado",
+    "header_bytes": ""
+  },
+  {
+    "ip": "127.0.0.1",
+    "port": 81,
+    "protocol": "TCP",
+    "service": "desconocido",
+    "state": "cerrado",
+    "header_bytes": ""
+  },
+  {
+    "ip": "127.0.0.1",
+    "port": 82,
+    "protocol": "TCP",
+    "service": "desconocido",
+    "state": "cerrado",
+    "header_bytes": ""
+  },
+  {
+    "ip": "127.0.0.1",
+    "port": 83,
+    "protocol": "TCP",
+    "service": "desconocido",
+    "state": "cerrado",
+    "header_bytes": ""
+  },
+  {
+    "ip": "127.0.0.1",
+    "port": 84,
+    "protocol": "TCP",
+    "service": "desconocido",
+    "state": "cerrado",
+    "header_bytes": ""
+  },
+  {
+    "ip": "127.0.0.1",
+    "port": 85,
+    "protocol": "TCP",
+    "service": "desconocido",
+    "state": "cerrado",
+    "header_bytes": ""
+  },
+  {
+    "ip": "127.0.0.1",
+    "port": 86,
+    "protocol": "TCP",
+    "service": "desconocido",
+    "state": "cerrado",
+    "header_bytes": ""
+  },
+  {
+    "ip": "127.0.0.1",
+    "port": 87,
+    "protocol": "TCP",
+    "service": "desconocido",
+    "state": "cerrado",
+    "header_bytes": ""
+  },
+  {
+    "ip": "127.0.0.1",
+    "port": 88,
+    "protocol": "TCP",
+    "service": "desconocido",
+    "state": "cerrado",
+    "header_bytes": ""
+  },
+  {
+    "ip": "127.0.0.1",
+    "port": 89,
+    "protocol": "TCP",
+    "service": "desconocido",
+    "state": "cerrado",
+    "header_bytes": ""
+  },
+  {
+    "ip": "127.0.0.1",
+    "port": 90,
+    "protocol": "TCP",
+    "service": "desconocido",
+    "state": "cerrado",
+    "header_bytes": ""
+  },
+  {
+    "ip": "127.0.0.1",
+    "port": 80,
+    "protocol": "UDP",
+    "service": "desconocido",
+    "state": "filtrado",
+    "header_bytes": ""
+  },
+  {
+    "ip": "127.0.0.1",
+    "port": 81,
+    "protocol": "UDP",
+    "service": "desconocido",
+    "state": "filtrado",
+    "header_bytes": ""
+  },
+  {
+    "ip": "127.0.0.1",
+    "port": 82,
+    "protocol": "UDP",
+    "service": "desconocido",
+    "state": "filtrado",
+    "header_bytes": ""
+  },
+  {
+    "ip": "127.0.0.1",
+    "port": 83,
+    "protocol": "UDP",
+    "service": "desconocido",
+    "state": "filtrado",
+    "header_bytes": ""
+  },
+  {
+    "ip": "127.0.0.1",
+    "port": 84,
+    "protocol": "UDP",
+    "service": "desconocido",
+    "state": "filtrado",
+    "header_bytes": ""
+  },
+  {
+    "ip": "127.0.0.1",
+    "port": 85,
+    "protocol": "UDP",
+    "service": "desconocido",
+    "state": "filtrado",
+    "header_bytes": ""
+  },
+  {
+    "ip": "127.0.0.1",
+    "port": 86,
+    "protocol": "UDP",
+    "service": "desconocido",
+    "state": "filtrado",
+    "header_bytes": ""
+  },
+  {
+    "ip": "127.0.0.1",
+    "port": 87,
+    "protocol": "UDP",
+    "service": "desconocido",
+    "state": "filtrado",
+    "header_bytes": ""
+  },
+  {
+    "ip": "127.0.0.1",
+    "port": 88,
+    "protocol": "UDP",
+    "service": "desconocido",
+    "state": "filtrado",
+    "header_bytes": ""
+  },
+  {
+    "ip": "127.0.0.1",
+    "port": 89,
+    "protocol": "UDP",
+    "service": "desconocido",
+    "state": "filtrado",
+    "header_bytes": ""
+  },
+  {
+    "ip": "127.0.0.1",
+    "port": 90,
+    "protocol": "UDP",
+    "service": "desconocido",
+    "state": "filtrado",
+    "header_bytes": ""
+  }
+]
